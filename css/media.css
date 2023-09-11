@@ -1,0 +1,146 @@
+@media (max-width: 1199px){
+    .banner h1{
+        font-size: 40px;
+    }
+    .contact-form{
+        width: 80%;
+    }
+}
+
+@media (max-width: 991px){
+
+    .bar{
+        color: #fff;
+        border: none;
+    }
+    .navbar-light .navbar-toggler :focus{
+        background-color: transparent;
+        outline: 0;
+        border: none;
+
+    }
+    .navbar-light .navbar-nav .nav-link{
+        margin-left: 0;
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+    .nav-item{
+        text-align: center;
+        }
+        .banner-image{
+            display: none;
+        } 
+        .banner h1{
+            font-size: 25px;
+        }
+        .banner-content-align{
+            text-align: center;
+            margin: auto;
+        }
+        .common {
+            font-size: 13px;
+            font-weight: 400;
+            padding: 8px 15px;
+            margin-bottom: 10px;
+        }
+        .display{
+            justify-content: center;
+            padding-top: 15px;
+        }
+        .like{
+            padding: 30px 0;
+            text-align: center;
+        }
+        .contact-form{
+            width: 85%;
+            bottom: inherit;
+        }
+
+}
+@media (max-width: 767px) {
+    
+    .common {
+        font-size: 10px;
+        font-weight: 400;
+        padding: 7px 13px;
+        margin-bottom: 10px;
+    }
+    .feature h2,.beautiful h2,.customize h2,.one-more h2{
+        font-size: 22px;
+    }
+    .beautyful_image{
+        display: none;
+    }
+    /* .beautiful p,.customize p{
+        margin-top: 15px;
+    } */
+    .beautiful-second-column{
+        margin-top: 20px;
+
+    }
+    .testimonial-section {
+        padding-bottom: 20px !important;
+    }
+    .owl-theme .owl-dots .owl-dot span{
+        margin-top: 20px;
+    }
+    .like h1{
+        font-size: 20px;
+    }
+    .pricing-column h1{
+        font-size: 35px;
+    }
+    .pricing-column h1 sup{
+        font-size: 20px;
+    }
+    .pricing-column h3 {
+        font-size: 20px;
+    }
+    .contact-form{
+        width: 70%;
+    }
+}
+
+@media (max-width: 575px) {
+    .banner h1{
+        font-size: 25px;
+    }
+
+.download {
+    margin-right: 0;
+}
+.banner p{
+    margin-bottom: 20px;
+}
+.icon-box{
+    margin-bottom: 10px;
+}
+.like{
+    padding: 20px 0;
+}
+.contact-form{
+    width: 80%;
+}
+    
+}
+@media (min-width: 378px) and (max-width: 575px){
+    .download {
+        margin-right: 7px;
+    }
+}
+@media (min-width: 377px) and (max-width: 444px){
+    .banner h5{
+        margin-top: 100px;
+    }
+}
+@media (max-width: 377px){
+    .banner {
+        margin-top: 70px;
+    }
+    .contact-form{
+        width: 100%;
+    }
+    .contact p{
+        font-size: 14px;
+    }
+}
